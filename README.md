@@ -7,5 +7,5 @@
 
 **Modeling.** After doing a quick baselining with a basic random forest, I performed GridSearchCV and RandomizedSearchCV to tune and optimize model parameters. 
 
-**Results.** The model was evaluated on the f1 score, since both precision and recall for both classes were important in this prediction problem. The parameters obtained from GridSearchCV gave the best f1 scores across the board and were chosen for testing on heldout data. Final f1 scores on unseen data: 0.86 for below 50k, 0.68 for above 50k.
+**Results.** The model was evaluated on the f1 score, since both precision and recall for both classes were important in this prediction problem. The parameters obtained from GridSearchCV gave the best f1 scores across the board and were chosen for testing on heldout data. Final f1 scores on unseen data: 0.89 for below 50k, 0.70 for above 50k.
 
